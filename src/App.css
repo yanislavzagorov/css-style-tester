@@ -1,33 +1,166 @@
+/*
+/ Color palette (grayscale, light > dark):
+/ #D8DBE2
+/ #A9BCD0
+/ #58A4B0
+/ #373F51
+/ #1B1B1E
+*/
+
+:root {
+  --color100: #D8DBE2;
+  --color200: #A9BCD0;
+  --color300: #58A4B0;
+  --color400: #373F51;
+  --color500: #1B1B1E;
+}
+
 .App {
+  text-align: center;
+  background-color: red;
+}
+
+.Wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.LeftPanel {
+  background-color: #373F51;
+  width: 30vw;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+input {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-weight: inherit;
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow 300ms;
+  width: 20vw;
+}
+
+input[type=text]:focus {
+  outline: none;
+  box-shadow: 0.1rem 0.4rem 0.8rem rgba(150, 150, 150, .5);
+}
+
+.RightPanel {
+  background-color: #1B1B1E;
+  width: 70vw;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.OutputPanel {
+  margin: auto;
+  color: black;
+  background-color: white;
+  padding: 5%;
+  width: 50vw;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(150, 150, 150, .5);
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.headings {
+  font-size: calc(10px + 2vmin);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#copyClipboardButton {
+  background-color: #A9BCD0;
+  border-radius: 0.4rem;
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-weight: inherit;
+  border: none;
+  transition: box-shadow 300ms;
+  width: 20vw;
+  margin-block-start: 1rem;
+}
+
+@keyframes gradient {
+  0% {
+    background: radial-gradient(circle at center, rgba( 255, 125 , 125, 0 ) 0%, #fff 0%, #fff 100%);
+  }
+  25% {
+    background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.3 ) 24%, #fff 25%, #fff 100%);
+  }
+  50% {
+    background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.5 ) 49%, #fff 50%, #fff 100%);
+  }
+  75% {
+    background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.8 ) 74%, #fff 75%, #fff 100%);
+  }
+  100% {
+    color: #fff;
+    background: radial-gradient(circle at center, #f88 99%, #fff 100%, #fff 100%);
+  }
+}
+
+#copyClipboardButton:active {
+  /* set time duration to your needs */
+  animation: gradient 200ms;
+  background: #f88;
+  color: #fff;
+  box-shadow: none;
+}
+
+
+/*
+.Wrapper {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.LeftPanel .RightPanel {
+  width: 50vw;
+  margin: auto;
+  display: inline-block;
+}
+
+.LeftPanel {
+  background-color: blue;
+}
+
+.RightPanel {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: red;
 }
+*/
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Will later be used to make cards fold onto each other */
+@media all and (min-width: 600px) {
+  .LeftPanel {
+
   }
 }
+
+@media all and (min-width: 800px) {
+  .LeftPanel {
+
+  }
+}
+
