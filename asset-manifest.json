@@ -1,13 +1,13 @@
 {
-  "main.css": "/yanislavzagorov/css-style-tester/static/css/main.8c87b10e.chunk.css",
-  "main.js": "/yanislavzagorov/css-style-tester/static/js/main.6eca9a0b.chunk.js",
-  "main.js.map": "/yanislavzagorov/css-style-tester/static/js/main.6eca9a0b.chunk.js.map",
-  "runtime~main.js": "/yanislavzagorov/css-style-tester/static/js/runtime~main.93f6e0cd.js",
-  "runtime~main.js.map": "/yanislavzagorov/css-style-tester/static/js/runtime~main.93f6e0cd.js.map",
-  "static/js/2.8270b5c0.chunk.js": "/yanislavzagorov/css-style-tester/static/js/2.8270b5c0.chunk.js",
-  "static/js/2.8270b5c0.chunk.js.map": "/yanislavzagorov/css-style-tester/static/js/2.8270b5c0.chunk.js.map",
-  "index.html": "/yanislavzagorov/css-style-tester/index.html",
-  "precache-manifest.ec852c049afd2246f17641caf0bd93d1.js": "/yanislavzagorov/css-style-tester/precache-manifest.ec852c049afd2246f17641caf0bd93d1.js",
-  "service-worker.js": "/yanislavzagorov/css-style-tester/service-worker.js",
-  "static/css/main.8c87b10e.chunk.css.map": "/yanislavzagorov/css-style-tester/static/css/main.8c87b10e.chunk.css.map"
+  "main.css": "/css-style-tester-deployed/static/css/main.c9bb0c68.chunk.css",
+  "main.js": "/css-style-tester-deployed/static/js/main.370e389e.chunk.js",
+  "main.js.map": "/css-style-tester-deployed/static/js/main.370e389e.chunk.js.map",
+  "runtime~main.js": "/css-style-tester-deployed/static/js/runtime~main.6d88083c.js",
+  "runtime~main.js.map": "/css-style-tester-deployed/static/js/runtime~main.6d88083c.js.map",
+  "static/js/2.0f0f1ed3.chunk.js": "/css-style-tester-deployed/static/js/2.0f0f1ed3.chunk.js",
+  "static/js/2.0f0f1ed3.chunk.js.map": "/css-style-tester-deployed/static/js/2.0f0f1ed3.chunk.js.map",
+  "index.html": "/css-style-tester-deployed/index.html",
+  "precache-manifest.5060b61a0b18f23b3e338e77dbd91422.js": "/css-style-tester-deployed/precache-manifest.5060b61a0b18f23b3e338e77dbd91422.js",
+  "service-worker.js": "/css-style-tester-deployed/service-worker.js",
+  "static/css/main.c9bb0c68.chunk.css.map": "/css-style-tester-deployed/static/css/main.c9bb0c68.chunk.css.map"
 }

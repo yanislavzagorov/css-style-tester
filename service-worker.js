@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/yanislavzagorov/css-style-tester/precache-manifest.ec852c049afd2246f17641caf0bd93d1.js"
+  "/css-style-tester-deployed/precache-manifest.5060b61a0b18f23b3e338e77dbd91422.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/yanislavzagorov/css-style-tester/index.html", {
+workbox.routing.registerNavigationRoute("/css-style-tester-deployed/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
