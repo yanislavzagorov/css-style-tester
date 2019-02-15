@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import CardContainer from './CardContainer/CardContainer.js'
-
+import useClipboard from "react-use-clipboard";
+import ClipboardHandler from './ClipboardHandler/ClipboardHandler.js'
 
 class App extends Component {
   state = {
@@ -83,8 +84,10 @@ class App extends Component {
             value={this.state.userInputFontFamily}
             placeholder='font-family:'
           />
-
-          <button id="copyClipboardButton">Copy code to clipboard.</button>
+          <button 
+            id="copyClipboardButton"
+          >Copy code to clipboard.</button>
+          <ClipboardHandler />
         </div>
         <div className="RightPanel">
           <h2 className='headings'>Output</h2>
