@@ -7,7 +7,7 @@
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.4"
   },
-  "homepage": "http://yanislavzagorov.github.io/css-style-tester-deployed"
+  "homepage": "http://yanislavzagorov.github.io/css-style-tester-deployed",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
